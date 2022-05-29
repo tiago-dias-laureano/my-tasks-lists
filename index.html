@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+        <div class="forms">
+            <input id="texto-tarefa" type="text" placeholder="Digite aqui sua tarefa..."> 
+            <button id="criar-tarefa" type="button">Adicionar</button>
+        </div>
+        
+
+        <ol id="lista-tarefas">
+
+        </ol>
+
+        <div class="btns">
+            <button id="apaga-tudo" type="button">Limpar tudo</button>
+            <button id="remover-finalizados" type="button">Limpar completos</button>
+            <button id="salvar-tarefas">Salvar tarefas</button>
+            <button id="remover-selecionado">Remover selecionado</button>
+        </div>
+
+        <div class="move">
+            <button id="mover-cima">
+                <i class="fa-solid fa-up-long"></i>
+            </button>
+            <button id="mover-baixo">
+                <i class="fa-solid fa-down-long"></i>
+            </button>
+        </div>
+        </div>
+        
+    </header>
+    <script src="https://kit.fontawesome.com/df4b9a5ddc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
